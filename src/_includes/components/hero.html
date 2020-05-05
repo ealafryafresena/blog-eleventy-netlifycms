@@ -1,5 +1,5 @@
 <div class="hero bg-secondary text-light d-flex justify-content-center align-items-center text-center">
-    <img src="/img/{{teaserImage}}" />
+    {% if teaserImage %}<img src="/img/{{teaserImage}}" />{% endif %}
     {% if heroText %}<h1>{{heroText}}</h1>{% endif %}
 </div>
 <figcaption>{{copyright}}</figcaption>
