@@ -1,0 +1,20 @@
+<div class="post-preview shadow">
+  <div class="d-flex justify-content-around">
+    <div class="post-preview-img">
+        <img src="/img/{{post.data.teaserImage}}" />
+    </div>
+    <div class="post-preview-content">
+      <div class="post-preview-text">
+        <p class="post-preview-date">
+            Published:
+            {{post.data.date.toLocaleDateString('en-US', dateFormatOptions )}}
+        </p>
+        <h4 class="post-preview-title">{{post.data.title}}</h4>
+        <p class="post-preview-teaser">{{post.data.teaser}}</p>
+      </div>
+      <div class="post-preview-btn float-right">
+        <a href="{{post.url}}" class="btn btn-outline-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>

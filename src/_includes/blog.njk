@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+
+{% include "./components/hero.html" %}
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-lg-8 col-md-12 col-sm-12">
+            <p class="post-preview-date">
+                Published:
+                {{date.toLocaleDateString('en-US', dateFormatOptions)}}
+            </p>
+            <h1>{{title}}</h1>
+            <div class="post-content">
+                {{ content | safe }}
+            </div>
+            <a class="btn btn-outline-primary mt-5 float-right" href="/">Back to All Posts</a>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,24 @@
 ---
-title: Home
-heading: Hello World!
 layout: base.njk
+title: Blog
+copyright: Photo by Patrick Tomasso on Unsplash
+teaserImage: patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg
+heroText: A Basic Blog with Eleventy and NetlifyCMS
 ---
 
-<h1>{{ heading }}</h1>
+{% include "./_includes/components/hero.html" %}
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-lg-8 col-md-12 col-sm-12">
+        {% for post in collections.postsReversed %}
+            {% if loop.first %}
+                <h3>Latest Post</h3>
+                {% include "./_includes/components/post-last-preview.html" %}
+                {% if collections.postsReversed.length > 1 %}<h3>More Posts</h3>{% endif %}
+            {% else %}
+                {% include "./_includes/components/post-preview.html" %}
+            {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</div>
