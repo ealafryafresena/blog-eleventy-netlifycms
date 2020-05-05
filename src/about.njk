@@ -1,20 +1,33 @@
 ---
-title: About
-heading: About this Project
 layout: base.njk
+title: About
+heroText: About this Blog
 ---
 
 {% include "./_includes/components/hero.html" %}
 <div class="container">
   <div class="row">
-    <div class="col-md-6 col-sm-12">
-      <h3>About Blog</h3>
-      <p class="about-text">Lorem...</p>
-    </div>
-    <div class="col-md-6 col-sm-12">
+    <div class="col-md-4 col-sm-12">
       <h3>Ingredients of this Application</h3>
-      <p class="about-text">Ipsum...
+      <p class="about-text">This project uses Eleventy as a static side generator and Nunjucks as a templating language.
+          Netlify CMS is used as the CMS.
       </p>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <h3>Built, tested and deployed by Netlify</h3>
+      <p class="about-text">This project is prebuilt by Netlify and deployed to Netlify's <i>global edge network.</i></p>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <h3>Miscellanea</h3>
+      <ul class="about-text">
+        <li>Source Code: <a href="https://github.com/ealafryafresena" target="_blank">GitHub</a></li>
+        <li>SSG: <a href="https://www.11ty.dev/" target="_blank">Eleventy</a></li>
+        <li>Templating: <a href="https://mozilla.github.io/nunjucks/" target="_blank">Nunjucks</a></li>
+        <li>CDN: <a href="https://www.netlify.com/" target="_blank">Netlify</a></li>
+        <li>CMS: <a href="https://www.netlifycms.org/" target="_blank">Netlify CMS</a></li>
+        <li>Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+      </ul>
     </div>
   </div>
 </div>
+<div class="spacer-300"></div>
