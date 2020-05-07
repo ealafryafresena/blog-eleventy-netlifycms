@@ -9,11 +9,16 @@ collections:
     folder: "src/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: 
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-        {label: "Title", name: "title", widget: "string"}
-        {label: "Teaser", name: "teaser", widget: "string"}
-        {label: "Date", name: "date", widget: "date", default: ""}
-        {label: "Body", name: "body", widget: "markdown"}
-        {label: "Image", name: "teaserImage", widget: "image"}
-        {label: "Copyright", name: "copyright", widget: "string"}
+    fields:
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "blog.njk",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Teaser", name: "teaser", widget: "string" }
+      - { label: "Date", name: "date", widget: "date", default: "" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image", name: "teaserImage", widget: "image" }
+      - { label: "Copyright", name: "copyright", widget: "string" }
