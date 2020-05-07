@@ -6,7 +6,7 @@ teaser: Ubergren, no sea takimata sanctus est invidunt ut labore et dolore magna
   aliquyam erat, sea takimata sanctus est invidt labore, Lorem ipsum dolor sit
   amet, sea takimata sanctus est invidunt ut labore, Lorem ipsum dolor sit amet.
 date: 2020-05-06T22:00:00.000Z
-teaserImage: /img/lorenzo-herrera-p0j-me6mgo4-unsplash.jpg
+teaserImage: lorenzo-herrera-p0j-me6mgo4-unsplash.jpg
 copyright: Photo by Lorenzo Herrera on Unsplash
 ---
 
