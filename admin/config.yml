@@ -20,7 +20,7 @@ collections:
       - { label: "Teaser", name: "teaser", widget: "string" }
       - {
           label: "Date",
-          name: "datePublished",
+          name: "date",
           widget: "datetime",
           dateFormat: "YYYY-MM-DD",
           timeFormat: "HH:mm",
