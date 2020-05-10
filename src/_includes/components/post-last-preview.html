@@ -5,7 +5,7 @@
     <div class="post-preview-latest-body">
         <p class="post-preview-date">
             Published:
-            {{post.data.date}}
+            {{post.data.date.toLocaleDateString('en-US', dateFormatOptions)}}
         </p>
         <h2>{{post.data.title}}</h2>
         <p>{{post.data.teaser}}</p>
