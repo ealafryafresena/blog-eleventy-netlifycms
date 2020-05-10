@@ -4,7 +4,7 @@ title: Labore sea takimata sanctus tst invidunt consetetur sadipscing
 teaser: Clita ipsum dolor sit amet, consetetur sadipscing elitrstet clita kasd
   gubergren, no sea takimatasanctus pst invidunt ut labore, Lorem ipsum dolor
   sit amet, sea takimata sanctus tst invidunt ut labore.
-date: 2020-05-07T22:00:00.000Z
+date: 05-10-2020
 teaserImage: /img/kevin-ku-w7zyugynprq-unsplash.jpg
 copyright: Photo by Kevin Ku on Unsplash
 tags: date
