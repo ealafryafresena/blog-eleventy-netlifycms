@@ -9,42 +9,8 @@ tags: date
 ---
 Lorem ipsum dolor sit amet, consetetur
 
-```jaml
-backend:
-  name: git-gateway
-  branch: master
-media_folder: "/img"
-public_folder: "/img"
-collections:
-  - name: "blog"
-    label: "Posts"
-    label_singular: "Post"
-    folder: "src/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "blog.njk",
-        }
-      - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          hint: "Title must have less than max. 60 characters",
-          pattern:
-            [
-              ".{10,59}",
-              "Title must have at least 10 and less than max. 60 characters",
-            ],
-        }
-      - { label: "Teaser", name: "teaser", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Teaser Image", name: "teaserImage", widget: "image" }
-      - { label: "Copyright", name: "copyright", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "string", default: "date" }
-
+```javascript
+function f(x, y) {
+    return x + y;
+}
 ```
