@@ -17,7 +17,12 @@ collections:
           widget: "hidden",
           default: "blog.njk",
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Title",
+          name: "title",
+          widget: "string",
+          pattern: [".{20,66}", "Must have at least 20 and max. 66 characters"],
+        }
       - { label: "Teaser", name: "teaser", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
