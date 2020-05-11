@@ -11,7 +11,7 @@ tags: date
 
 Lorem ipsum dolor sit amet, consetetur
 
-```html
+``` html
 <!doctype html>
 <html>
 <head>
