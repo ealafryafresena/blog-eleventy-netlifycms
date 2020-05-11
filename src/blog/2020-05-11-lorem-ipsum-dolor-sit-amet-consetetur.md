@@ -9,7 +9,7 @@ tags: date
 ---
 Lorem ipsum dolor sit amet, consetetur
 
-```
+```jaml
 backend:
   name: git-gateway
   branch: master
