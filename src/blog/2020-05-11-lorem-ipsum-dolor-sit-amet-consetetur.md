@@ -9,7 +9,7 @@ tags: date
 ---
 Lorem ipsum dolor sit amet, consetetur
 
-```javascript
+```
 function f(x, y) {
     return x + y;
 }
