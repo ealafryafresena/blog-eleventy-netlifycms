@@ -21,7 +21,7 @@ collections:
           label: "Title",
           name: "title",
           widget: "string",
-          pattern: [".{20,66}", "Must have at least 20 and max. 66 characters"],
+          pattern: [".{,59}", "Title must have less than max. 60 characters"],
         }
       - { label: "Teaser", name: "teaser", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
