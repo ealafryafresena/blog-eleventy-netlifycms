@@ -22,7 +22,11 @@ collections:
           name: "title",
           widget: "string",
           hint: "Title must have less than max. 60 characters",
-          pattern: [".{,59}", "Title must have less than max. 60 characters"],
+          pattern:
+            [
+              ".{10,59}",
+              "Title must have at least 10 and less than max. 60 characters",
+            ],
         }
       - { label: "Teaser", name: "teaser", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
